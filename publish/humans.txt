@@ -3,18 +3,22 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  The volunteers at Youth For Seva
+  Site: youthforseva.org
+  Facebook: https://www.facebook.com/youthforsevapage
+  Location: India
 
 /* THANKS */
   Names (& URL):
+	* Twitter Bootstrap (twitter.github.com/bootstrap)
+	* Roboto font (developer.android.com/design/style/typography.html)
+	* Keeparty font (www.fontsoup.com/keeparty)
+	* Google Maps (maps.google.com)
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software:
+  Components: Modernizr, jQuery, Twitter Bootstrap
+  Software: Sublime Text 2, Apache Ant
 
 
 

@@ -1,0 +1,24 @@
+@import "bootstrap/bootstrap.less";
+
+@import "bootstrap/responsive.less";
+
+@import "lib/mixins.less";
+@import "lib/elements.less";
+@import "font/Roboto/Roboto.less";
+@import "font/Merge/Merge.less";
+/* ===== Primary Styles ========================================================
+   Author: See /humans.txt
+   ========================================================================== */
+body {
+    background: #222222 url(../img/yfs-bg.jpg);
+}
+
+.container {
+    .translucent-background(#FFFFFF, 0.9);
+    .rounded(4px);
+    margin-top: 50px;
+    font-family: 'RobotoLight', 'Trebuchet MS', Arial, sans-serif;
+    color: #222222;
+    padding: 20px;
+    min-height: 480px;
+}

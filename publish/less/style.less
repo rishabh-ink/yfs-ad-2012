@@ -1,0 +1,26 @@
+@import "bootstrap/bootstrap.less";
+
+@import "bootstrap/responsive.less";
+
+@import "lib/mixins.less";
+@import "font/Roboto/Roboto.less";
+@import "font/Merge/Merge.less";
+@import "font/Delicious-123/Delicious-123.less";
+@import "font/Fontin/Fontin.less";
+/* ===== Primary Styles ========================================================
+   Author: See /humans.txt
+   ========================================================================== */
+body {
+    background: #222222 url(../img/yfs-bg.jpg);
+    overflow-y: scroll;
+    // ADD glow like handlebars.js website
+}
+
+.container {
+    .translucent-background(#FFFFFF, 0.9);
+    .border-radius(4px);
+    margin: 50px auto;
+    padding: 50px;
+    min-height: 480px;
+    text-shadow: 0px 1px 1px #FFFFFF;
+}

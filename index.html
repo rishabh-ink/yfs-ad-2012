@@ -57,7 +57,6 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=265782403521858";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-</div>
 
 <div class="container" role="main">
   <!-- Schema.org microdata -->
@@ -89,13 +88,32 @@
 
         <div class="row-fluid">
           <div class="span12">
-            <h3>About</h3>
-            <p>This shall be an occasion to bring together the entire Youth For Seva family - all our volunteers, donors, well-wishers, partners and the people/groups to whom our volunteers and projects have reached out to.</p>
-            <p>We will look at how volunteers can contribute significantly to solve society's problems. You can see how volunteers have already made an impact. As the Youth For Seva family expands, the extent of change will multiply.</p>
-            <p>Join us as we celebrate the work <span>you</span> have done and look forward to do a lot more this year!</p>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
+              <li><a href="#agenda" data-toggle="tab">Agenda</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade active in" id="overview">
+                <h3>Youth For Seva - Annual Day '12 is here!</h3>
 
-            <h3>Agenda</h3>
-            <p>Along the way, we shall share in experiences from the past year, stories of change, take a look at volunteerism and the relevance of what we are doing at Youth For Seva, cultural activities like group song and skit about volunteerism and social change, visual displays to highlight volunteer experiences and the work done, and the presence as chief guest of well-loved and respected former India cricket captain, Anil Kumble.</p>
+                <p>This <time datetime="2012-08-05">August</time>, be ready to gear up, meet your fellow volunteers, different <abbr title="Non-Government Organizations">NGO</abbr>s, share ideas, debate, discuss and a lot more! All under one roof. We also have a skit and a dance performance geared up for you.</p>
+
+                <p>We will look at how volunteers can contribute significantly to solve society's problems. You can see how volunteers have already made an impact. As the Youth For Seva family expands, the extent of change will multiply.</p>
+
+                <p>Join us as we celebrate the work <span>you</span> have done and look forward to do a lot more this year!</p>
+
+              </div>
+              <div class="tab-pane fade" id="agenda">
+                <h3>About</h3>
+                  <p>This shall be an occasion to bring together the entire Youth For Seva family - all our volunteers, donors, well-wishers, partners and the people/groups to whom our volunteers and projects have reached out to.</p>
+
+                  <p>As always, this event is completely run by the volunteers of Youth For Seva.</p>
+
+                  <h3>Agenda</h3>
+
+                  <p>Along the way, we shall share in experiences from the past year, stories of change, take a look at volunteerism and the relevance of what we are doing at Youth For Seva, cultural activities like group song and skit about volunteerism and social change, visual displays to highlight volunteer experiences and the work done, and the presence as chief guest of well-loved and respected former India cricket captain, Anil Kumble.</p>
+              </div>
+            </div>
           </div>
           <div class="span4"></div>
         </div>
@@ -194,7 +212,9 @@
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
 <!-- scripts concatenated and minified via ant build script-->
-<script src="js/libs/bootstrap/bootstrap.min.js"></script>
+<script src="js/libs/bootstrap/bootstrap.js"></script>
+<script src="js/libs/bootstrap/tab.js"></script>
+<script src="js/libs/bootstrap/tooltip.js"></script>
 
 <script src="js/script.js"></script>
 <!-- end scripts-->

@@ -7424,6 +7424,9 @@ body {
   min-height: 480px;
   text-shadow: 0px 1px 1px #FFFFFF;
 }
+.when-day {
+  font-size: 21px;
+}
 /* Overrides */
 footer address {
   display: inline;

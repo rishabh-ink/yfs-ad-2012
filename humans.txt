@@ -1,47 +1,75 @@
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
-
 /* TEAM */
-  The volunteers at Youth For Seva
+  Volunteers at Youth For Seva
   Site: youthforseva.org
   Facebook: https://www.facebook.com/youthforsevapage
   Location: India
 
 /* THANKS */
   Names (& URL):
+  * HTML5 Boilerplate (h5bp.com)
 	* Twitter Bootstrap (twitter.github.com/bootstrap)
 	* Roboto font (developer.android.com/design/style/typography.html)
 	* Keeparty font (www.fontsoup.com/keeparty)
 	* Google Maps (maps.google.com)
 
 /* SITE */
+  Last update:2012/07/17
+  Language: English
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery, Twitter Bootstrap
-  Software: Sublime Text 2, Apache Ant
+  Software: Sublime Text 2, Apache Ant, GIMP
 
 
 
-                               -o/-
-                               +oo//-
-                              :ooo+//:
-                             -ooooo///-
-                             /oooooo//:
-                            :ooooooo+//-
-                           -+oooooooo///-
-           -://////////////+oooooooooo++////////////::
-            :+ooooooooooooooooooooooooooooooooooooo+:::-
-              -/+ooooooooooooooooooooooooooooooo+/::////:-
-                -:+oooooooooooooooooooooooooooo/::///////:-
-                  --/+ooooooooooooooooooooo+::://////:-
-                     -:+ooooooooooooooooo+:://////:--
-                       /ooooooooooooooooo+//////:-
-                      -ooooooooooooooooooo////-
-                      /ooooooooo+oooooooooo//:
-                     :ooooooo+/::/+oooooooo+//-
-                    -oooooo/::///////+oooooo///-
-                    /ooo+::://////:---:/+oooo//:
-                   -o+/::///////:-      -:/+o+//-
-                   :-:///////:-            -:/://
-                     -////:-                 --//:
-                       --                       -:
+YYYYYYY       YYYYYYYFFFFFFFFFFFFFFFFFFFFFF   SSSSSSSSSSSSSSS
+Y:::::Y       Y:::::YF::::::::::::::::::::F SS:::::::::::::::S
+Y:::::Y       Y:::::YF::::::::::::::::::::FS:::::SSSSSS::::::S
+Y::::::Y     Y::::::YFF::::::FFFFFFFFF::::FS:::::S     SSSSSSS
+YYY:::::Y   Y:::::YYY  F:::::F       FFFFFFS:::::S
+   Y:::::Y Y:::::Y     F:::::F             S:::::S
+    Y:::::Y:::::Y      F::::::FFFFFFFFFF    S::::SSSS
+     Y:::::::::Y       F:::::::::::::::F     SS::::::SSSSS
+      Y:::::::Y        F:::::::::::::::F       SSS::::::::SS
+       Y:::::Y         F::::::FFFFFFFFFF          SSSSSS::::S
+       Y:::::Y         F:::::F                         S:::::S
+       Y:::::Y         F:::::F                         S:::::S
+       Y:::::Y       FF:::::::FF           SSSSSSS     S:::::S
+    YYYY:::::YYYY    F::::::::FF           S::::::SSSSSS:::::S
+    Y:::::::::::Y    F::::::::FF           S:::::::::::::::SS
+    YYYYYYYYYYYYY    FFFFFFFFFFF            SSSSSSSSSSSSSSS
+
+
+
+
+
+                         -o/-
+                         +oo//-
+                        :ooo+//:
+                       -ooooo///-
+                       /oooooo//:
+                      :ooooooo+//-
+                     -+oooooooo///-
+     -://////////////+oooooooooo++////////////::
+      :+ooooooooooooooooooooooooooooooooooooo+:::-
+        -/+ooooooooooooooooooooooooooooooo+/::////:-
+          -:+oooooooooooooooooooooooooooo/::///////:-
+            --/+ooooooooooooooooooooo+::://////:-
+               -:+ooooooooooooooooo+:://////:--
+                 /ooooooooooooooooo+//////:-
+                -ooooooooooooooooooo////-
+                /ooooooooo+oooooooooo//:
+               :ooooooo+/::/+oooooooo+//-
+              -oooooo/::///////+oooooo///-
+              /ooo+::://////:---:/+oooo//:
+             -o+/::///////:-      -:/+o+//-
+             :-:///////:-            -:/://
+               -////:-                 --//:
+                 --                       -:
+
+
+<div itemscope itemtype="http://schema.org/WebPage">
+  <a href="http://rishabhsrao.github.com" itemprop="url"><span itemprop="author">Rishabh Rao</span></a>.
+</div>

@@ -1,0 +1,16 @@
+.humanstxt-transparent-1ink, .html5-badge-h-css3-device-performance-semantics{
+	background: url(sprites.png) no-repeat;
+}
+
+.humanstxt-transparent-1ink{
+	background-position: 0 0;
+	width: 88px;
+	height: 31px;
+}
+
+.html5-badge-h-css3-device-performance-semantics{
+	background-position: -90px 0;
+	width: 111px;
+	height: 31px;
+}
+

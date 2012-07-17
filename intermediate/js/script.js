@@ -1,1 +1,1 @@
-jQuery(document).ready(function(){jQuery(".main").removeClass("hide")});
+jQuery(document).ready(function(){jQuery("[title]").tooltip()});

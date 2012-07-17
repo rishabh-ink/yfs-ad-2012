@@ -641,7 +641,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: inherit;
+  font-family: "RobotoBold", "RobotoRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: inherit;
   text-rendering: optimizelegibility;
@@ -7399,20 +7399,22 @@ a.badge:hover {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('font/Roboto/Roboto-Bold-webfont.eot');
+  src: url('font/Roboto/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('font/Roboto/Roboto-Bold-webfont.woff') format('woff'), url('font/Roboto/Roboto-Bold-webfont.ttf') format('truetype'), url('font/Roboto/Roboto-Bold-webfont.svg#RobotoBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /* ===== Primary Styles ========================================================
    Author: See /humans.txt
    ========================================================================== */
+/* Body style rules */
 body {
   background: #222222 url(../img/yfs-bg.jpg);
   overflow-y: scroll;
 }
 .container {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.9);
-  zoom: 1;
-  background-color: transparent\9;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6ffffff, endColorstr=#e6ffffff)";
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6ffffff, endColorstr=#e6ffffff);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -7423,8 +7425,37 @@ body {
   padding: 50px;
   min-height: 480px;
   text-shadow: 0px 1px 1px #FFFFFF;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.75);
+  zoom: 1;
+  background-color: transparent\9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#bfffffff, endColorstr=#bfffffff)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#bfffffff, endColorstr=#bfffffff);
+  background-image: url("../img/bghaze.png"), -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 1500, color-stop(0%, rgba(255, 255, 255, 0.75)), color-stop(100%, rgba(255, 206, 163, 0.75)));
+  background-image: url("../img/bghaze.png"), -webkit-radial-gradient(top center, rgba(255, 255, 255, 0.75), rgba(255, 206, 163, 0.75) 1500px);
+  background-image: url("../img/bghaze.png"), -moz-radial-gradient(top center, rgba(255, 255, 255, 0.75), rgba(255, 206, 163, 0.75) 1500px);
+  background-image: url("../img/bghaze.png"), -o-radial-gradient(top center, rgba(255, 255, 255, 0.75), rgba(255, 206, 163, 0.75) 1500px);
+  background-image: url("../img/bghaze.png"), -ms-radial-gradient(top center, rgba(255, 255, 255, 0.75), rgba(255, 206, 163, 0.75) 1500px);
+  background-image: url("../img/bghaze.png"), radial-gradient(top center, rgba(255, 255, 255, 0.75), rgba(255, 206, 163, 0.75) 1500px);
 }
-/* Overrides */
+aside .highlight {
+  font-size: 21px;
+}
+/* Footer style rules */
+footer .logo {
+  background: url(../img/logo-footer.png) no-repeat;
+}
+footer .logo-html5 {
+  background-position: -90px 0;
+  width: 88px;
+  height: 31px;
+}
+footer .logo-humanstxt {
+  background-position: 0 0;
+  width: 90px;
+  height: 25px;
+}
+/* Override style rules */
 footer address {
   display: inline;
 }

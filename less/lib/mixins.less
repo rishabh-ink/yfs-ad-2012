@@ -1,6 +1,5 @@
 // Courtesy http://dan.cx/blog/2012/05/rgba-in-ie
-.translucent-background (@colour, @alpha)
-{
+.translucent-background (@colour, @alpha) {
     @alphaColour: hsla(hue(@colour), saturation(@colour), lightness(@colour), @alpha);
     @ieAlphaColour: argb(@alphaColour);
 
@@ -12,5 +11,28 @@
     background-color: transparent\9;
     -ms-filter:  "progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 8+
         filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 6 & 7
+}
 
+.img-gradient(@image, @baseColor, @alpha, @colorStopOne, @colorStopTwo) {
+    @alphaColour: hsla(hue(@baseColor), saturation(@baseColor), lightness(@baseColor), @alpha);
+    @ieAlphaColour: argb(@alphaColour);
+
+    @alphaColourOne: hsla(hue(@colorStopOne), saturation(@colorStopOne), lightness(@colorStopOne), @alpha);
+    @alphaColourTwo: hsla(hue(@colorStopTwo), saturation(@colorStopTwo), lightness(@colorStopTwo), @alpha);
+
+    background-color: @baseColor; // Fallback for older browsers
+    background-color: @alphaColour;
+
+    // IE hacks
+    zoom: 1; // hasLayout
+    background-color: transparent\9;
+    -ms-filter:  "progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 8+
+        filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 6 & 7
+
+    background-image: url(@image), -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 500, color-stop(0%, @alphaColourOne), color-stop(100%, @alphaColourTwo));
+    background-image: url(@image), -webkit-radial-gradient(top center, @alphaColourOne, @alphaColourTwo 500px);
+    background-image: url(@image), -moz-radial-gradient(top center, @alphaColourOne, @alphaColourTwo 500px);
+    background-image: url(@image), -o-radial-gradient(top center, @alphaColourOne, @alphaColourTwo 500px);
+    background-image: url(@image), -ms-radial-gradient(top center, @alphaColourOne, @alphaColourTwo 500px);
+    background-image: url(@image), radial-gradient(top center, @alphaColourOne, @alphaColourTwo 500px);
 }

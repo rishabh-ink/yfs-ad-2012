@@ -7460,6 +7460,7 @@ aside .highlight {
 /* Footer style rules */
 footer .logo {
   background: url(../img/logo-footer.png) no-repeat;
+  display: block;
 }
 footer .logo-html5 {
   background-position: -90px 0;
@@ -7470,6 +7471,10 @@ footer .logo-humanstxt {
   background-position: 0 0;
   width: 90px;
   height: 25px;
+}
+footer .event-organizer {
+  text-align: center;
+  margin-left: 0;
 }
 /* Override style rules */
 footer address {

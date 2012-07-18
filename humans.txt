@@ -16,7 +16,8 @@
 	* Google Maps (maps.google.com)
 
 /* SITE */
-  Last update:2012/07/17
+  Last update: 2012/07/17
+  Source code: http://github.com/rishabhsrao/yfs-ad-2012
   Language: English
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery, Twitter Bootstrap

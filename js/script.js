@@ -1,9 +1,17 @@
 /* Author: See /humans.txt
 
 */
+"use strict";
 
 jQuery(document).ready(function() {
-	jQuery("[title]").tooltip();
+	// Enable tooltips
+	jQuery("[rel='tooltip']").tooltip();
+
+	// Enable popovers
+	jQuery("[rel='popover']").popover({
+		html: true,
+		placement: 'right'
+	});
 });
 
 

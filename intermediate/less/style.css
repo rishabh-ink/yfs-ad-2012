@@ -7411,8 +7411,15 @@ a.badge:hover {
    ========================================================================== */
 /* Body style rules */
 body {
-  background: #222222 url(../img/yfs-bg.jpg);
+  background-color: #222222;
+  /* Show background image only for portrait tablet to landscape and desktop */
+
   overflow-y: scroll;
+}
+@media (min-width: 768px) {
+  body {
+    background-image: url(../img/yfs-bg.jpg);
+  }
 }
 .container {
   -webkit-border-radius: 4px;

@@ -10,13 +10,14 @@
 /* THANKS */
   Names (& URL):
   * HTML5 Boilerplate (h5bp.com)
-	* Twitter Bootstrap (twitter.github.com/bootstrap)
-	* Roboto font (developer.android.com/design/style/typography.html)
-	* Keeparty font (www.fontsoup.com/keeparty)
-	* Google Maps (maps.google.com)
+  * Twitter Bootstrap (twitter.github.com/bootstrap)
+  * Roboto font (developer.android.com/design/style/typography.html)
+  * Keeparty font (www.fontsoup.com/keeparty)
+  * Google Maps (maps.google.com)
 
 /* SITE */
-  Last update:2012/07/17
+  Last update: 2012/07/18
+  Source code: http://github.com/rishabhsrao/yfs-ad-2012
   Language: English
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery, Twitter Bootstrap

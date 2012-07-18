@@ -670,8 +670,8 @@ h2 small {
   font-size: 18px;
 }
 h3 {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 35px;
 }
 h3 small {
   font-size: 14px;
@@ -679,19 +679,19 @@ h3 small {
 h4,
 h5,
 h6 {
-  line-height: 20px;
+  line-height: 30px;
 }
 h4 {
-  font-size: 14px;
+  font-size: 16px;
 }
 h4 small {
   font-size: 12px;
 }
 h5 {
-  font-size: 12px;
+  font-size: 14px;
 }
 h6 {
-  font-size: 11px;
+  font-size: 13px;
   color: #999999;
   text-transform: uppercase;
 }
@@ -5386,7 +5386,7 @@ input[type="submit"].btn.btn-mini {
 }
 .popover-inner {
   padding: 3px;
-  width: 280px;
+  width: 350px;
   overflow: hidden;
   background: #000000;
   background: rgba(0, 0, 0, 0.8);
@@ -7445,12 +7445,22 @@ body {
   background-image: url("../img/bghaze.png"), -ms-radial-gradient(top center, rgba(255, 255, 255, 0.75), rgba(255, 206, 163, 0.75) 1500px);
   background-image: url("../img/bghaze.png"), radial-gradient(top center, rgba(255, 255, 255, 0.75), rgba(255, 206, 163, 0.75) 1500px);
 }
+.dropdown {
+  text-shadow: none;
+}
+.share-qr {
+  background: url(../img/share-qr.png) no-repeat;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
 aside .highlight {
   font-size: 21px;
 }
 /* Footer style rules */
 footer .logo {
   background: url(../img/logo-footer.png) no-repeat;
+  display: block;
 }
 footer .logo-html5 {
   background-position: -90px 0;
@@ -7461,6 +7471,10 @@ footer .logo-humanstxt {
   background-position: 0 0;
   width: 90px;
   height: 25px;
+}
+footer .event-organizer {
+  text-align: center;
+  margin-left: 0;
 }
 /* Override style rules */
 footer address {

@@ -1,7 +1,13 @@
 /* Body style rules */
 
 body {
-    background: #222222 url(../img/yfs-bg.jpg);
+    background-color: #222222;
+
+    /* Show background image only for portrait tablet to landscape and desktop */
+    @media (min-width: 768px) {
+        background-image: url(../img/yfs-bg.jpg);
+    }
+
     overflow-y: scroll;
 }
 
@@ -13,6 +19,17 @@ body {
     text-shadow: 0px 1px 1px #FFFFFF;
 
     .img-gradient("../img/bghaze.png", #FFFFFF, 0.75, #FFFFFF, #FFCEA3);
+}
+
+.dropdown {
+    text-shadow: none;
+}
+
+.share-qr {
+    background: url(../img/share-qr.png) no-repeat;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 aside .highlight {

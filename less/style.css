@@ -671,7 +671,7 @@ h2 small {
 }
 h3 {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 35px;
 }
 h3 small {
   font-size: 14px;
@@ -679,7 +679,7 @@ h3 small {
 h4,
 h5,
 h6 {
-  line-height: 20px;
+  line-height: 30px;
 }
 h4 {
   font-size: 16px;

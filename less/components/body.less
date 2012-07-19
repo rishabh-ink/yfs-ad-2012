@@ -1,16 +1,22 @@
 /* Body style rules */
 
 html body {
-    background-color: #222222;
-    /* Show background image only for portrait tablet to landscape and desktop */
+    overflow-y: scroll;
+
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) {
+        background: #222222;
+    }
+
+    /* Show background image only for portrait tablet to landscape and desktop screens */
     @media (min-width: 768px) {
-        background-image: url(../img/yfs-bg.jpg);
+        background: #222222 url(../img/yfs-bg.jpg);
     }
 }
 
 html.lt-ie9 body {
+    // Show image always for IE9-.
     background: #222222 url(../img/yfs-bg.jpg);
-    overflow-y: scroll;
 }
 
 .container {

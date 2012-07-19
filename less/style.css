@@ -7410,19 +7410,25 @@ a.badge:hover {
    Author: See /humans.txt
    ========================================================================== */
 /* Body style rules */
-html.lt-ie9 body {
-  background: #222222 url(../img/yfs-bg.jpg);
-  overflow-y: scroll;
-}
 html body {
-  background-color: #222222;
-  /* Show background image only for portrait tablet to landscape and desktop */
+  overflow-y: scroll;
+  /* Landscape phone to portrait tablet */
 
+  /* Show background image only for portrait tablet to landscape and desktop screens */
+
+}
+@media (max-width: 767px) {
+  html body {
+    background: #222222;
+  }
 }
 @media (min-width: 768px) {
   html body {
-    background-image: url(../img/yfs-bg.jpg);
+    background: #222222 url(../img/yfs-bg.jpg);
   }
+}
+html.lt-ie9 body {
+  background: #222222 url(../img/yfs-bg.jpg);
 }
 .container {
   -webkit-border-radius: 4px;

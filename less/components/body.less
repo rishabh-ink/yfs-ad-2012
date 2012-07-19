@@ -1,13 +1,16 @@
 /* Body style rules */
 
-body {
-    background: #222222;
+html.lt-ie9 body {
+    background: #222222 url(../img/yfs-bg.jpg);
+    overflow-y: scroll;
+}
+
+html body {
+    background-color: #222222;
     /* Show background image only for portrait tablet to landscape and desktop */
     @media (min-width: 768px) {
-        background: #222222 url(../img/yfs-bg.jpg);
+        background-image: url(../img/yfs-bg.jpg);
     }
-
-    overflow-y: scroll;
 }
 
 .container {

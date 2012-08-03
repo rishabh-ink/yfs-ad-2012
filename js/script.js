@@ -5,9 +5,7 @@
 
 jQuery(document).ready(function() {
 	// Enable tooltips
-	jQuery("[rel='tooltip']").tooltip({
-		placement: 'right'
-	});
+	jQuery("[rel='tooltip']").tooltip();
 
 	// Enable popovers
 	jQuery("[rel='popover']").popover({

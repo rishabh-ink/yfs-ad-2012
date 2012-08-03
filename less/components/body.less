@@ -43,3 +43,38 @@ html.lt-ie9 body {
 aside .highlight {
     font-size: @baseFontSize + 5px;
 }
+
+.spread-the-word {
+    background: url(../img/spread-the-word.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.spread-the-word.facebook {
+    background-position: 0 0;
+}
+
+.spread-the-word.facebook:hover {
+    background-position: 0 -32px;
+}
+
+.spread-the-word.twitter {
+    background-position: -32px 0;
+}
+
+.spread-the-word.twitter:hover {
+    background-position: -32px -32px;
+}
+
+.spread-the-word.youtube {
+    background-position: -64px 0;
+}
+
+.spread-the-word.youtube:hover {
+    background-position: -64px -32px;
+}
+
+a.plain-anchor:hover {
+    text-decoration: none;
+}

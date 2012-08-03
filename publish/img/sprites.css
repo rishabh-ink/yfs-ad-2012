@@ -1,16 +1,40 @@
-.humanstxt-transparent-1ink, .html5-badge-h-css3-device-performance-semantics{
+.twitter_gray, .facebook, .twitter, .youtube, .facebook_gray, .youtube_gray{
 	background: url(sprites.png) no-repeat;
 }
 
-.humanstxt-transparent-1ink{
-	background-position: 0 0;
-	width: 88px;
-	height: 31px;
+.twitter_gray{
+	background-position: -32px 0;
+	width: 32px;
+	height: 32px;
 }
 
-.html5-badge-h-css3-device-performance-semantics{
-	background-position: -90px 0;
-	width: 111px;
-	height: 31px;
+.facebook{
+	background-position: 0 -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.twitter{
+	background-position: -32px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.youtube{
+	background-position: -64px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.facebook_gray{
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+.youtube_gray{
+	background-position: -64px 0;
+	width: 32px;
+	height: 32px;
 }
 

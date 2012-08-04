@@ -1,39 +1,39 @@
-.twitter_gray, .facebook, .twitter, .youtube, .facebook_gray, .youtube_gray{
+.facebook, .Twitter_alt, .youtube_alt, .picasa_alt, .rss, .mail{
 	background: url(sprites.png) no-repeat;
 }
 
-.twitter_gray{
-	background-position: -32px 0;
-	width: 32px;
-	height: 32px;
-}
-
 .facebook{
-	background-position: 0 -32px ;
-	width: 32px;
-	height: 32px;
-}
-
-.twitter{
-	background-position: -32px -32px ;
-	width: 32px;
-	height: 32px;
-}
-
-.youtube{
-	background-position: -64px -32px ;
-	width: 32px;
-	height: 32px;
-}
-
-.facebook_gray{
 	background-position: 0 0;
 	width: 32px;
 	height: 32px;
 }
 
-.youtube_gray{
-	background-position: -64px 0;
+.Twitter_alt{
+	background-position: 0 -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.youtube_alt{
+	background-position: 0 -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.picasa_alt{
+	background-position: 0 -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.rss{
+	background-position: 0 -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.mail{
+	background-position: 0 -160px ;
 	width: 32px;
 	height: 32px;
 }

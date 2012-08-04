@@ -16,9 +16,9 @@
   * Google Maps (maps.google.com)
 
 /* SITE */
-  Last update: 2012/07/18
+  Last update: 4th August, 2012
   Source code: http://github.com/rishabhsrao/yfs-ad-2012
-  Language: English
+  Language: en_US
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery, Twitter Bootstrap
   Software: Sublime Text 2, Apache Ant, GIMP
@@ -71,6 +71,3 @@ YYY:::::Y   Y:::::YYY  F:::::F       FFFFFFS:::::S
                  --                       -:
 
 
-<div itemscope itemtype="http://schema.org/WebPage">
-  <a href="http://rishabhsrao.github.com" itemprop="url"><span itemprop="author">Rishabh Rao</span></a>.
-</div>

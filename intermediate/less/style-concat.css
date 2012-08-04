@@ -7475,23 +7475,26 @@ aside .highlight {
 .spread-the-word.facebook {
   background-position: 0 0;
 }
-.spread-the-word.facebook:hover {
+.spread-the-word.twitter {
   background-position: 0 -32px;
 }
-.spread-the-word.twitter {
-  background-position: -32px 0;
-}
-.spread-the-word.twitter:hover {
-  background-position: -32px -32px;
-}
 .spread-the-word.youtube {
-  background-position: -64px 0;
+  background-position: 0 -64px;
 }
-.spread-the-word.youtube:hover {
-  background-position: -64px -32px;
+.spread-the-word.picasa {
+  background-position: 0 -96px;
+}
+.spread-the-word.rss {
+  background-position: 0 -128px;
+}
+.spread-the-word.mail {
+  background-position: 0 -160px;
 }
 a.plain-anchor:hover {
   text-decoration: none;
+}
+div.vertical-spacer.small {
+  margin-top: 5px;
 }
 /* Footer style rules */
 footer .logo {

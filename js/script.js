@@ -10,7 +10,7 @@ jQuery(document).ready(function() {
 	// Enable popovers
 	jQuery("[rel='popover']").popover({
 		html: true,
-		placement: 'right'
+		placement: 'left'
 	});
 });
 
